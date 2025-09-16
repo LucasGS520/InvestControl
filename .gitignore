@@ -6,7 +6,7 @@ $RECYCLE.BIN/
 Desktop.ini
 
 #Chatmodes do GitHub
-.github/chatmodes/
+.github/
 
 # IDE / Editor
 .vscode/
