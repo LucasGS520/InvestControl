@@ -1,0 +1,154 @@
+# ---- Global ----
+# OS
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+Desktop.ini
+
+#Chatmodes do GitHub
+.github/chatmodes/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env files (keep only examples)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs & dumps
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+
+# Caches
+.python-version
+.pytest_cache/
+.tox/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+
+# Alembic
+alembic.ini.bak
+alembic/versions/__pycache__/
+
+# Local settings / secrets
+backend/**/settings_local.py
+
+# ---- Node / Frontend (Vue) ----
+node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+.pnp.js
+.pnp.data.json
+.pnp/**
+.browserslistrc
+
+# Vite / Vue
+frontend/dist/
+**/dist/
+.vite/
+.cache/
+.sass-cache/
+.nuxt/
+.next/
+
+# TypeScript
+*.tsbuildinfo
+
+# NPM/Yarn/PNPM
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# (Descomente para versionar locks específicos do gerenciador)
+
+# ---- Docker / Containers ----
+**/docker/*.local.*
+**/docker/**/tmp/
+**/docker/**/.cache/
+**/docker/**/build/
+
+# Compose overrides
+**/docker-compose.override.yml
+
+# ---- Kubernetes / Helm ----
+**/k8s/**/tmp/
+**/k8s/**/.cache/
+
+# ---- Flutter (futuro) ----
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+android/.gradle/
+android/captures/
+android/app/**/keystore.jks
+
+# ---- Misc ----
+coverage/
+.tmp/
+.tmp/**
+.tmp-*
+
+# Binary blobs
+*.bin
+*.exe
+*.dll
+*.dylib
+*.so
+
+# Generated docs
+/site/
+/docs/_build/
+
+# Security
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+
+# Local DB/data volumes
+postgres-data/
+**/db_data/
